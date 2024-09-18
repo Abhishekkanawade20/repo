@@ -13,5 +13,5 @@ provider "aws" {
 }
  resource "aws_instance" "practice" {
     instance_type = "t2.micro"
-
+    ami = "ami-0522ab6e1ddcc7055"
  }
